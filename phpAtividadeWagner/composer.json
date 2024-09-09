@@ -1,0 +1,10 @@
+{
+    "name": "admin/php-atividade-wagner",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\PhpAtividadeWagner\\": "src/"
+        }
+    },
+    "require": {}
+}
