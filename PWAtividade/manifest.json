@@ -1,0 +1,22 @@
+{
+    "name": "Feira Tecnológica",
+    "short_name": "FeiraTec",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#6200ea",
+    "description": "Um site para a Feira Tecnológica, mostrando inovações e projetos.",
+    "icons": [
+      {
+        "src": "/images/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

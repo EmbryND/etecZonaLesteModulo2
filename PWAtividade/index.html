@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feira Tecnológica</title>
+  
+  <!-- Link para o manifest.json -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#6200ea">
+  
+  <!-- Link para o CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Bem-vindo à Feira Tecnológica!</h1>
+  <p>Explore os projetos e inovações apresentados na nossa feira.</p>
+
+  <!-- Script para registrar o service worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then((registration) => {
+            console.log('Service Worker registrado com sucesso:', registration);
+          })
+          .catch((error) => {
+            console.log('Falha ao registrar o Service Worker:', error);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
