@@ -1,0 +1,10 @@
+{
+    "name": "admin/aula-wagner",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\AulaWagner\\": "src/"
+        }
+    },
+    "require": {}
+}
